@@ -1,0 +1,40 @@
+.list-container{
+    width: 100vw;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+   width: 60%;
+   height: 100px;
+   background-color: rgb(57, 64, 64);
+   margin: 5px 0px;
+   border-radius: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: wheat;
+}
+
+ul li{
+    margin-right: 10px;
+}
+
+.deleteButton{
+    background-color: red;
+    border-style: none;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.editButton{
+    background-color: green;
+    border-style: none;
+    padding: 5px;
+}
